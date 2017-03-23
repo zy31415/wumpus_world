@@ -19,8 +19,8 @@ class Maze {
     size_t num_wumps, num_pits, num_golds;
 
     // _read and _mark functions are auxiliary functions used to parse maze configuration file.
-    static void _read(ifstream& configf, Maze& maze, size_t & count, const int bit);
-    static void _mark(Maze& maze, size_t x, size_t y, const int bit);
+    static void _read(ifstream& configf, int **arr, size_t & count, const int property_bit);
+    static void _mark(int **arr, size_t x, size_t y, const int property_bit);
 
 public:
     Maze();
