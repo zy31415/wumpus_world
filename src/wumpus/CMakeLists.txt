@@ -1,0 +1,1 @@
+add_library(wumpus wumpus_world.cpp maze.cpp wumpus_code.cpp)

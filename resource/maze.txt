@@ -1,0 +1,4 @@
+4  # Size of the maze
+1 2 0 # num of wumpus followed by their position pairs
+3 0 2 2 2 3 3 # number of pits followed by their position pairs
+1 2 1  # number of golds followed by their position pairs
